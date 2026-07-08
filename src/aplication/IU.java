@@ -6,6 +6,8 @@ public class IU {
 	
 	public static void printTabuleiro(PecaXadrez[][] pecas) {
 		for (int i=0; i<pecas.length; i++) {
+			
+						
 			System.out.print((8 - i) + " ");
 			for (int j=0; j<pecas.length; j++) {
 				printPeca(pecas[i][j]);
